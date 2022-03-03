@@ -1,0 +1,111 @@
+@charset "utf-8";
+@import url(//http://www.google.com/fonts/earlyaccess);
+
+* {
+    margin: 0; padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+html, body {
+    height: 100%;
+}
+/* 수정하는 공간 */
+section {
+    width: 100%;
+    height: 110vh;
+    
+}
+#container {
+    width: 70%; height: 110vh;
+    margin: 0 auto;
+}
+#content {
+    width: 70%;
+    margin: 0 auto;
+    
+}
+/* -------------------------- */
+/* 회원정보 수정 */
+#content > h2 {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 40px;
+    padding: 10px;
+    color: #fff;
+    background-color: #0071EB;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+/* first */
+.profile_info {
+    width: 100%; height: 600px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+}
+.profile_info input {
+    border: 1px solid rgb(224, 224, 224);
+    text-indent: 20px;
+}
+.profile_info > h2 {
+    margin-bottom: 10px;
+}
+.profile_first {
+    width: 100%; height: 230px;
+    border-bottom: 3px dotted rgb(136, 136, 136);
+}
+.profile_first > input {
+    width: 60%; height: 40px;
+}
+
+.profileImage {
+    display: block;
+    width: 30%; height: 200px;
+    border: 5px solid #0071EB;
+    border-radius: 34px;
+    margin-right: 20px;
+    float: left;
+}
+.profileImage > img {
+    width: 100%; height: 200px;
+    border-radius: 30px;
+}
+/* second */
+.profile_second {
+    width: 100%; height: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px dotted rgb(136, 136, 136);
+    
+}
+.profile_second > input {
+    width: 100%; height: 30px;
+    margin: 5px 0 5px 0;
+}
+
+/* third */
+
+.profile_third a {
+    display: block;
+    width: 100%; height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(224, 224, 224);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.profile_third a:visited {
+    color:#000;
+} 
+.profile_third a:hover {
+    background-color: #0071EB;
+    color: #fff;
+    transition: 0.4s;
+}

@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+@import url(//http://www.google.com/fonts/earlyaccess);
+
+html, body {
+   height: 100%;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Jeju Gothic', sans-serif;
+}
+
+a {
+   text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
+/* 정보 기입란 */
+h3 {
+   margin-bottom: 5px;
+   font-size: 15px;
+}
+
+section {
+   height: 200vh;
+}
+
+#container {
+   width: 100%;
+   height: 210vh;
+   background-color: #F5F6F7;
+   position: absolute;
+   top: 17%;
+   left: 0;
+}
+
+#content_wrap {
+   margin: 0 auto;
+   padding-top: 40px;
+   width: 80%;
+   height: 110vh;
+}
+
+#content {
+   width: 33%;
+   height: 110vh;
+   margin: 0 auto;
+}
+/* --------------------------------------------------------------------
+    -------------------------------------------------------------------
+    -----------------------------------------------------------------
+    ------------------------------------------------------------------ */
+/* 첫번째  */
+#first_box {
+   width: 100%;
+   height: 20vh;
+   margin-bottom: 30px;
+}
+
+#first_box input {
+   border: 1px solid rgb(207, 207, 207);
+   width: 100%;
+   height: 50px;
+   font-size: 20px;
+}
+#email {
+	margin-bottom: 10px;
+}
+/* --------------------------------------------------------------------
+-------------------------------------------------------------------
+-----------------------------------------------------------------
+------------------------------------------------------------------ */
+/* 두번째 */
+#second_box {
+   margin-bottom: 30px;
+}
+
+#second_box input {
+   margin-bottom: 20px;
+   width: 100%;
+   height: 50px;
+   font-size: 20px;
+}
+
+#sex {
+   border: 1px solid rgb(207, 207, 207);
+   margin-bottom: 20px;
+   width: 100%;
+   height: 55px;
+}
+
+#region {
+   border: 1px solid rgb(207, 207, 207);
+   width: 100%;
+   height: 55px;
+   margin-bottom: 20px;
+}
+
+#password {
+   background: url('../images/icon/padlock.png') no-repeat 95%, #fff;
+}
+/* --------------------------------------------------------------------
+-------------------------------------------------------------------
+-----------------------------------------------------------------
+------------------------------------------------------------------ */
+/* 세번째 */
+#photoFile {
+   margin-bottom: 10px;
+   border: none;
+}
+
+#third_box>select {
+   border: 1px solid rgb(207, 207, 207);
+   margin-bottom: 20px;
+   float: left;
+   width: 50%;
+   height: 55px;
+}
+
+#introduction {
+   width: 100%;
+   height: 200px;
+   margin-top: 10px;
+}
+
+button {
+   width: 100%;
+   height: 40px;
+   border: none;
+   background-color: #0071EB;
+   color: #fff;
+   font-weight: bold;
+   margin-top: 20px;
+}
+
+
+input {
+   text-indent: 20px;
+   border: 1px solid rgb(207, 207, 207);
+}
+select {
+	background-color: #fff;
+}

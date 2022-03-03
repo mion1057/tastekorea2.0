@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+@import url(//http://www.google.com/fonts/earlyaccess);
+
+html, body {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Jeju Gothic', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+section {
+	width: 100%;
+}
+
+#container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.content {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.content>h3 {
+	width: 200px;
+	font-size: 40px;
+	padding: 10px;
+	background-color: #0071EB;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.region_bar {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.region_bar input {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background: none;
+	font-weight: bold;
+}
+
+.region_bar input:hover {
+	background-color: #0071EB;
+	border: none;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.region_bar .active {
+	border: 1px solid #0071EB;
+	background-color: #0071EB;
+	color: #fff;
+}
+/* pin모음 */
+.pin_box {
+	width: 30%;
+	height: 500px;
+	border: 1px solid rgb(187, 187, 187);
+	border-radius: 20px;
+	margin: 0 1.5% 5% 1.5%;
+	position: relative;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+	float: left;
+}
+
+.pin_box>a {
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 9;
+}
+
+.user_profile {
+	width: 100%;
+	height: 40px;
+}
+
+.user_profile img {
+	width: 9%;
+	height: 36px;
+	margin: 2.5px 3px 2.5px 10px;
+	border-radius: 100%;
+	float: left;
+}
+
+.user_profile>a:visited {
+	color: #000;
+}
+
+.user_profile .user_name {
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.user_profile .pin_region {
+	display: block;
+	line-height: 40px;
+	margin-right: 10px;
+	border-radius: 20px;
+	float: right;
+}
+
+.user_profile .pin_region img {
+	width: 24px;
+	height: 24px;
+	margin: 8px 0 8px;
+}
+
+.pin_image {
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+}
+
+.pin_image img {
+	width: 100%;
+	height: 100%;
+	transform: scale(1);
+	transition: all 0.5s ease-in-out;
+}
+
+.pin_box:hover img {
+	transform: scale(1.05);
+}
+
+.pin_title {
+	width: 97%;
+	height: 40px;
+	padding: 5px;
+}
+
+.pin_title p {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.title_zone {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+
+.pin_category {
+	line-height: 30px;
+	float: right;
+	width: 150px;
+	height: 30px;
+	background-color: #a3a3a3;
+	color: #fff;
+	text-align: center;
+}
+
+@media only screen and (min-width : 1920px) {
+	.content {
+		width: 90%;
+		height: 100vh;
+		margin: 0 auto;
+	}
+	.content>h3 {
+		width: 200px;
+		font-size: 40px;
+		padding: 10px;
+		background-color: #0071EB;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.region_bar {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	.region_bar input {
+		width: 100px;
+		height: 30px;
+		border: 1px solid #000;
+		border-radius: 10px;
+		background: none;
+		font-weight: bold;
+	}
+	.region_bar input:hover {
+		background-color: #0071EB;
+		border: none;
+		color: #fff;
+		transition: 0.3s;
+	}
+	.region_bar .active {
+		border: 1px solid #0071EB;
+		background-color: #0071EB;
+		color: #fff;
+	}
+	/* pin모음 */
+	.pin_box {
+		width: 30%;
+		height: 500px;
+		border: 1px solid rgb(187, 187, 187);
+		border-radius: 20px;
+		margin: 0 1.5% 5% 1.5%;
+		position: relative;
+		box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+		float: left;
+	}
+	.pin_box>a {
+		width: 100%;
+		height: 470px;
+		position: absolute;
+		top: 40px;
+		left: 0;
+		z-index: 9;
+	}
+	.user_profile {
+		width: 100%;
+		height: 40px;
+	}
+	.user_profile img {
+		width: 8%;
+		height: 35px;
+		margin: 2.5px 3px 2.5px 10px;
+		border-radius: 100%;
+		float: left;
+	}
+	.user_profile .user_name {
+		line-height: 40px;
+		font-weight: bold;
+	}
+	.user_profile .pin_region {
+		display: block;
+		line-height: 40px;
+		margin-right: 10px;
+		border-radius: 20px;
+		float: right;
+	}
+	.user_profile .pin_region img {
+		width: 24px;
+		height: 24px;
+		margin: 8px 0 8px;
+	}
+	.pin_image {
+		width: 100%;
+		height: 380px;
+		overflow: hidden;
+	}
+	.pin_image img {
+		width: 100%;
+		height: 100%;
+		transform: scale(1);
+		transition: all 0.5s ease-in-out;
+	}
+	.pin_box:hover img {
+		transform: scale(1.05);
+	}
+	.pin_title {
+		width: 97%;
+		height: 40px;
+		padding: 5px;
+	}
+	.pin_title p {
+		display: inline-block;
+		font-weight: bold;
+	}
+	.title_zone {
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+	}
+	.pin_category {
+		line-height: 30px;
+		float: right;
+		width: 150px;
+		height: 30px;
+		background-color: #a3a3a3;
+		color: #fff;
+		text-align: center;
+	}
+}

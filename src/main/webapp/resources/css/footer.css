@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@import url(//http://www.google.com/fonts/earlyaccess);
+
+footer {
+	padding: 70px;
+	background-color: #1A2B49;
+	color: #fff;
+}
+
+footer .sns {
+	float: right;
+}
+
+footer .sns li {
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	float: left;
+}
+
+footer .sns a {
+	display: block;
+	text-indent: -99999px;
+}
+
+footer .sns li:nth-child(1) {
+	background: url("../images/icon/youbube.png") no-repeat center;
+}
+
+footer .sns li:nth-child(2) {
+	background: url("../images/icon/facebook.png") no-repeat center;
+}
+
+footer .sns li:nth-child(3) {
+	background: url("../images/icon/instagram.png") no-repeat center;
+}
+
+footer .sns li:nth-child(4) {
+	background: url("../images/icon/twiter.png") no-repeat center;
+}

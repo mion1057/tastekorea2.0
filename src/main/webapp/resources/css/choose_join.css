@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url(//http://www.google.com/fonts/earlyaccess);
+
+
+* {
+    margin: 0; padding: 0;
+    font-family: 'Jeju Gothic', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/* choose */
+
+#container {
+    width: 40%; height: 300px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.sign_up_wrap {
+    margin: 0 auto;
+    width: 90%; height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.text_box {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+.text_box h2 {
+    margin: 0 0 40px 0;
+}
+.text_box p {
+    font-weight: bold;
+}
+.sign_up {
+    width: 100%;
+    margin: 0 auto;
+}
+/* button {
+    font-size: 20px;
+    line-height: 40px;
+    width: 95%; height: 70px;
+    margin-left: 10px;
+    padding: 10px;  
+    text-align: center;
+    font-weight: bold;  
+    border: none; 
+    border-radius: 40px;
+}
+.user_join {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgb(226, 226, 226);
+}
+.user_join:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.2s;
+}
+.guide_join {
+    background-color: #0071EB;
+    color: #fff;
+}
+.guide_join:hover {
+    background-color: #032594;
+    transition: 0.2s;
+} */
+.sign_up a {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 40px;
+    width: 95%; height: 40px;
+    padding: 10px;  
+    text-align: center;
+    font-weight: bold;   
+    border-radius: 40px;
+}
+.sign_up .companion {
+    background-color: #0071EB;
+    color: #fff;
+}
+.sign_up .companion:hover {
+    background-color: #032594;
+    transition: 0.2s;
+}
+.sign_up .user {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgb(226, 226, 226);
+    
+}
+.sign_up .user:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.2s;
+}
+
+.line {
+	display:flex;
+    margin: 0 auto;
+	flex-basis:100%;
+	align-items:center;
+	color:rgba(0,0,0,0.35);
+	font-size:14px;
+	margin:8px 0px;
+}
+.line::before{
+	content:"";
+	flex-grow:1;
+	margin:0px 16px;
+	background:rgba(0,0,0,0.35);
+	height:1px;
+	font-size:0px;
+	line-height: 0px;
+}
+.line::after {
+	content:"";
+	flex-grow:1;
+	margin:0px 16px;
+	background:rgba(0,0,0,0.35);
+	height:1px;
+	font-size:0px;
+	line-height: 0px;
+}
+
